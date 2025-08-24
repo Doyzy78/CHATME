@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Neon Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="top">
+    <div id="top-left">Loading profile...</div>
+    <select id="musicControl">
+      <option value="">🎵 Select Music</option>
+      <option value="music/Alone.mp3">🎶 Alone </option>
+      <option value="music/Fade.mp3">🎶 Fade </option>
+      <option value="music/Hislerim.mp3">🎶 Hislerim </option>
+      <option value="music/Kalimutan.mp3">🎶 Kalimutan </option>
+      <option value="music/Runaway.mp3">🎶 Runaway </option>
+      <option value="music/SayGoodBye.mp3">🎶 SayGoodBye </option>
+      
+    </select>
+  </div>
+
+  <div id="chat"></div>
+
+  <div id="inputArea">
+    <input type="text" id="messageInput" placeholder="Type a message...">
+    <button id="sendBtn">Send</button>
+  </div>
+
+  <audio id="bgMusic" loop></audio>
+
+  <script src="app.js"></script>
+</body>
+</html>
